@@ -1,0 +1,5 @@
+[hpc]
+test1 ansible_host=140.112.33.248 ansible_user=hpc ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:$p -q bastion1"'
+
+[C9]
+#172.17.34.154 ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:$p -q bastion1"'
